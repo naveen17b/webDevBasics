@@ -1,4 +1,18 @@
 
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#navbar{
+    padding: 20px;
+}
+
+#banner{
+    object-fit: cover;;
+}
+
 h1{
     text-align: center;
     color:red;
@@ -6,5 +20,9 @@ h1{
     border-style:double;
     border-block-end-width: 0cqi;
     
+}
+
+#banner{
+    width: 100%;
 }
 
