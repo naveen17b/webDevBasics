@@ -101,6 +101,29 @@ h2 {
     margin: 0 10px;
 }
 
+#jobs-table{
+    width: 100%;
+    border: 1px solid grey;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table-header th{
+    border: 1px solid grey;
+    padding: 10px;
+    background-color:aliceblue
+    
+}
+
+.jobs-data-row td{
+    border: 1px solid grey;
+    
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color:aliceblue;
+}
+
 .copyright {
     color: gray;
     font-size: 12px;
@@ -110,17 +133,14 @@ h2 {
 
 .jobs-data-row {
     table {
-        width: 100%;
+        max-width: 800px;
         border-collapse: collapse;
-        margin-top: 10px;
+        margin: 0 auto;
     }
     th, td {
         border: 1px solid black;
         padding: 10px;
         text-align: left;
     }
-    caption {
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
+    
 }
