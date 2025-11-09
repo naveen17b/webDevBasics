@@ -1,0 +1,8 @@
+
+//resourses
+//Emmet : 
+
+
+// use [! + tab button] to ge tht edoc syntax
+
+//Tooltip:
