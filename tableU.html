@@ -3,28 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tables</title>
+    <title>Employee Data Table</title>
+    <style>
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-family: Arial, sans-serif; }
+    caption { padding: 0.5rem; font-weight: bold; background: #f4f4f4; }
+    th, td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
+    th { background: #4CAF50; color: white; }
+    tbody tr:nth-child(even) { background: #f9f9f9; }
+    tbody tr:hover { background: #e8f5e8; }
+  </style>
   </head>
   <body>
     <table>
+      <caption>Employee Information</caption>
       <tr>
-        <td>Column 1</td>
-        <td>Colume 2</td>
-        <td>Column 3</td>
+        <th scope="col">Column 1</th>
+        <th scope="col">Column 2</th>
+        <th scope="col">Column 3</th>
+        <th scope="col">Column 4</th>
+        
       </tr>
 
       <table>
         <tr>
           <th>Name</th>
           <th>Age</th>
+          <th>Occupation</th>
+          <th>Location</th>
         </tr>
         <tr>
           <td>Alice</td>
           <td>24</td>
+          <td>Automation Tester</td>
+          <td>Hyderabad</td>
         </tr>
         <tr>
           <td>Bob</td>
           <td>29</td>
+          <td>SDET</td>
+          <td>Bengaluru</td>
         </tr>
       </table>
     </table>
